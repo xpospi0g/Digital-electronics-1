@@ -17,6 +17,6 @@ osa x | osa y
 Bunka c.1 | Bunka c.2
 Bunka c.3 | Bunka c.4
 
-![Opička](Images/screenshot_eda.png)
+![Panda](Panda.png)
 
 https://www.youtube.com/watch?v=uDh1iR5Jrvs&ab_channel=SugarshackMusicChannel
