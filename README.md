@@ -2,7 +2,7 @@
 
 ## Nadpis druhe urovne s *italic* textem
 
- přikazem bold __zvyrazneny text__ s přikazem bold
+ přikazem bold __zvyrazneny text__ 
 pomocí ~~ ~~Přeškrtnuty text.~~ 
 
 
