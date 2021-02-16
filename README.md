@@ -14,13 +14,13 @@ __List bez řazení__
     * Item 2ba
 
 __Seřazený list__
-1. Prvni
-2. Druhy
-3. Treti
-   * Treti a
-     - Treti ab
-   * Treti b
-     - Treti ba
+1. Jedna
+2. Dva
+3. Tri
+   * Tri a
+     - Tri ab
+   * Tri b
+     - Tri ba
 ```
 git status
 git add
