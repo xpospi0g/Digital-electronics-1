@@ -38,3 +38,41 @@ end architecture dataflow;
 
 
 https://www.edaplayground.com/x/NYbN
+
+
+Distributive laws
+
+| **z** | **y** |**x** | **a(x,y,z)** | **b(x,y,z)** |
+| :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 1 |
+| 0 | 1 | 1 | 0 | 0 |
+| 1 | 0 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 1 | 1 |
+
+
+library ieee;               
+use ieee.std_logic_1164.all;
+
+
+entity distributiveLaws is
+    port(
+        x_i    : in  std_logic;         
+        y_i    : in  std_logic;  
+        z_i    : in  std_logic;
+        aL_o   : out std_logic;         
+        aP_o   : out std_logic;         
+        bL_o   : out std_logic;   
+        bP_o   : out std_logic 
+    );
+end entity distributiveLaws;
+
+architecture dataflow of distributiveLaws is
+begin
+    aL_o  <= (x_i and y_i) or (x_i and z_i);
+    aP_o  <= (x_i and (y_i or z_i));
+    bL_o  <= ((x_i or y_i) and (x_i or z_i));
+    bP_o  <= (x_i or (y_i and z_i));
+
+end architecture dataflow;
