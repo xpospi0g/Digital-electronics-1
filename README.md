@@ -6,7 +6,7 @@
  
 pomocí ~~ ~~Přeškrtnuty text.~~ 
 
-List bez řazení
+_List bez řazení_
 * Item 1
 * Item 2
   * Item 2a
