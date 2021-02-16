@@ -1,4 +1,4 @@
-# Digital-electronics-1
+# Digital-electronics-1 (nadpis urovne jedna)
 
 ## Nadpis druhe urovne s *italic* textem
 
@@ -13,6 +13,14 @@ __List bez řazení__
   * Item 2b
     * Item 2ba
 
+__Seřazený list__
+1. Prvni
+2. Druhy
+3. Treti
+   * Treti a
+     - Treti ab
+   * Treti b
+     - Treti ba
 ```
 git status
 git add
