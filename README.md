@@ -19,4 +19,4 @@ Bunka c.3 | Bunka c.4
 
 ![Opička](Images/screenshot_eda.png)
 
-https://www.youtube.com/watch?v=V4uYWhk67v0&ab_channel=IyaTerra
+https://www.youtube.com/watch?v=uDh1iR5Jrvs&ab_channel=SugarshackMusicChannel
