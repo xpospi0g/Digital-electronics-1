@@ -131,4 +131,4 @@ p_stimulus  :  process
     end process p_stimulus;
 ```
 
-![eror](C:\Users\E5570\Desktop\DE1\Digital-electronics-1\Labs\02-logic\eror.png)
+![eror](C:\Users\E5570\Desktop\DE1\Digital-electronics-1\Labs\02-logic\eror.PNG)
