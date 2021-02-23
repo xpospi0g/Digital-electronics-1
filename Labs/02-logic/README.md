@@ -32,7 +32,7 @@ B_equals_A
 
 
 
-![equation_2](Digital-electronics-1\Labs\02-logic\equation_2.PNG)
+![equation_2](equation_2.PNG)
 
 B_greater_A
 
@@ -45,7 +45,7 @@ B_greater_A
 
 
 
-![equation_1](Digital-electronics-1\Labs\02-logic\equation_1.PNG)
+![equation_1](equation_1.PNG)
 
 B_less_A
 
@@ -131,4 +131,4 @@ p_stimulus  :  process
     end process p_stimulus;
 ```
 
-![eror](Digital-electronics-1\Labs\02-logic\eror.PNG)
+![eror](eror.PNG)
