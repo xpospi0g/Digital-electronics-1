@@ -53,9 +53,7 @@
 
   
 
-Odkaz na tutorial: 
-
-[vivado_tutorial]: https://github.com/xpospi0g/Digital-electronics-1/blob/main/Labs/03-vivado/Tutorial.md	"vivado_tutorial"
+Odkaz na tutorial: https://github.com/xpospi0g/Digital-electronics-1/blob/main/Labs/03-vivado/Tutorial.md
 
 
 
