@@ -49,6 +49,13 @@
 
 - Screenshot with simulated time waveforms; always display all inputs and outputs:
 
-  ![simulation](Digital-electronics-1\Labs\03-vivado\images\simulation.png)
+  ![simulation](images/simulation.png)
 
   
+
+Odkaz na tutorial: 
+
+[vivado_tutorial]: https://github.com/xpospi0g/Digital-electronics-1/blob/main/Labs/03-vivado/Tutorial.md	"vivado_tutorial"
+
+
+
