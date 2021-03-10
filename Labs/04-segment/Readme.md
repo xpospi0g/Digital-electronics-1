@@ -157,7 +157,7 @@
 
 - **Screenshot with simulated time waveforms; always display all inputs and outputs:**
 
-   ![Simulation](images/simulation2.PNG)
+   ![Simulation](images/simulation2.png)
 
    
 
