@@ -132,8 +132,6 @@ end architecture testbench;
 
 
 
-
-
 ### **Top**
 
 **Listing of VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter:**
