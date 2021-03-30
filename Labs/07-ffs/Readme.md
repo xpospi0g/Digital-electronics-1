@@ -579,19 +579,19 @@ p_reset_gen : process
 
 **p_d_ff_arst**
 
-![](images/waweforms 2.jpg)
+![img2](images/waweforms2rst.jpg)
 
 **p_d_ff_rst**
 
-![](images/waweforms d_ff_rst.jpg)
+![img3](images/d_ff_rst.jpg)
 
 **p_jk_ff_rst**
 
-![](images/waweforms jk.jpg)
+![img5](images/jk.jpg)
 
 **p_t_ff_rst**
 
-![](images/waweformst_ff.jpg)
+![img4](images/t_ff.jpg)
 
 **Image of the shift register schematic. The image can be drawn on a computer or by hand. Name all inputs, outputs, components and internal signals:**
 
