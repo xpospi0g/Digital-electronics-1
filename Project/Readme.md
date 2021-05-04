@@ -1,16 +1,16 @@
-# DE1-Projekt 1: Parking assistant with HC-SR04 ultrasonic sensor, sound signaling using PWM, signaling by LED bargraph.
+DE1-Projekt 1: Parking assistant with HC-SR04 ultrasonic sensor, sound signaling using PWM, signaling by LED bargraph.
 
 
 
 ### Team members
 
-Pavlo Shelemba 
+**Pavlo Shelemba** - 
 
-Radim Pařízek 
+**Radim Pařízek** - 
 
-Viliam Putz  
+**Viliam Putz** **-**
 
-Pospíšil Martin 221454
+**Pospíšil Martin - 221454**
 
 
 
@@ -30,7 +30,7 @@ As additional features, we decided to add small siren to produce sound when pin 
 
 ### Hardware description
 
-###### Board Arty A7 - 35T
+**Board Arty A7 - 35T**
 
 ![](Images/Arty_A7-35T.PNG)
 
@@ -38,7 +38,7 @@ As additional features, we decided to add small siren to produce sound when pin 
 
 ![](Images/Arty_parts.PNG)
 
-###### HC-SR04 ultrasonic sensors
+**HC-SR04 ultrasonic sensors**
 
 The input to the system is an array of three low cost HC-SR04 ultrasonic sensors. Each sensorhas 4 pins, namely Vcc, Trigger, Echo and Ground. When a trigger signal of 10uS is sent tothe ultrasonic sensor the sensor itself produces a set of eight burst signals through thetransmitter. The receiver receives the reflected back signal and output a pulse proportional tothe distance measured. A detailed image is shown in figure 3. The ultrasonic range sensorshave a detection range of 4m with an accuracy of 3mm. The best of the ultrasonic range sensorscould be gained through a FPGA chip. A large amount of sensor readings could be gainedconcurrently without any delay with use of an FPGA.
 
@@ -58,21 +58,43 @@ The ultrasonic sensor works at 5V and the FPGA board works at 3.3V. A trigger si
 
 ![](Images/block diagram-senzor.PNG)
 
-### **VHDL modules descriptions**
+### **VHDL modules descriptions** and simulations
 
-[Odkaz na vhdl kód modulu driver_7seg_4digits]( )
+[VHDL code of cnt_up_down](https://github.com/xpospi0g/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/imports/new/cnt_up_down.vhd)
 
-[Odkaz na vhdl kód modulu driver_7seg_4digits]( )
+[VHDL code of bargraph](https://github.com/xshele01/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/new/driver_hc_sr04.vhd)
 
-[Odkaz na vhdl kód modulu driver_7seg_4digits]( )
+![](Images/bargraph.png)
 
-[Odkaz na vhdl kód modulu driver_7seg_4digits]( )
+
+
+[VHDL code of driver_hc_sr_04](https://github.com/xshele01/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/new/driver_hc_sr04.vhd)
+
+![](Images/driver.png)
+
+
+
+[VHDL code of pwm](https://github.com/xshele01/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/new/pwm.vhd)
+
+![](Images/pwm.png)
+
+
+
+[VHDL code of switch](https://github.com/xshele01/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/new/switch.vhd)
+
+![](Images/switch.png)
+
+
+
+[VHDL code of trigger](https://github.com/xshele01/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/new/trigger.vhd)
+
+![](Images/trigger.png)
 
 
 
 #### TOP module and simulation
 
-
+[VHDL code of top](https://github.com/xshele01/Digital-electronics-1/blob/main/Project/PROJECT/PROJECT.srcs/sources_1/new/top.vhd)
 
 ```vhdl
 
