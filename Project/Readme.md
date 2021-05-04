@@ -53,7 +53,7 @@ The ultrasonic sensor works at 5V and the FPGA board works at 3.3V. A trigger si
 
 
 
-##### Schematics
+#### Schematics
 
 **Timing Diagram for HC -SR04 Ultrasonic Sensor**
 
@@ -183,14 +183,28 @@ Top modul is used to implement all modules onto development board Arty A7-100T. 
 
 ### **Video**
 
+[Link to video](https://drive.google.com/drive/u/0/folders/1ckc2RjHWFnYiYrOzwDaQC1Dgn1szUid2)
+
 
 
 #### Discussion
 
 Possible improovement could be adding temperature senzor to change temperature dynamically, and calculate velocity of sound, rather than having constant value v=340m.s^1.
 
-We are also using only two senzors and they are not very accurate. In fact that in real parking assistents are used 4-8 senzors, possible improovement will be also 
-
-pouzivame jen dva senzory nejsou presne a ve skutecnych se pouziva 4-8 senzoru, zvetsi pocet senzoru 
+We are also using only two senzors and they are not very accurate. In fact that in real parking assistents are used 4-8 senzors, possible improovement will be also increase the number of senzors.
 
 **References**
+
+https://www.academia.edu/29188168/Obstacle_avoidance_robot_using_FPGA_VHDL
+
+https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual
+
+https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/
+
+https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE/edit#
+
+https://www.youtube.com/watch?v=PJkiDAKVTFg&ab_channel=Mittuniversitetet
+
+https://vhdlwhiz.com/pwm-controller/
+
+https://surf-vhdl.com/how-to-divide-an-integer-by-constant-in-vhdl/
