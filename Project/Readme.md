@@ -4,7 +4,7 @@
 
 ## Team members
 
-**Pavol Shelemba** **-** **212579**
+**Pavlo Shelemba** **-** **212579**
 
 **Radim Pařízek** **-** **221483**
 
