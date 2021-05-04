@@ -11,3 +11,4 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT/PROJECT.xpr
+update_compile_order -fileset sources_1
