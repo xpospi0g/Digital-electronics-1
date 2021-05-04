@@ -14,6 +14,10 @@
 
 
 
+[GitHub repozitory](https://github.com/xshele01/Digital-electronics-1/tree/main/Project/PROJECT)
+
+
+
 ## Project objectives
 
 Project goal is to implement parking assistant with HC-SR04 ultrasonic sensor onto board Arty A7-100T. Use LED baragraph for light signaliasing and for sound signalising use pulse width modulation.
