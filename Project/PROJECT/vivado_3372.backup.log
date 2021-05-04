@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue May  4 21:03:10 2021
-# Process ID: 11496
+# Start of session at: Tue May  4 19:57:41 2021
+# Process ID: 3372
 # Current directory: C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7732 C:\Users\E5570\Desktop\DE1\Digital-electronics-1\Project\PROJECT\PROJECT.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25160 C:\Users\E5570\Desktop\DE1\Digital-electronics-1\Project\PROJECT\PROJECT.xpr
 # Log file: C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT/vivado.log
 # Journal file: C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT\vivado.jou
 #-----------------------------------------------------------
@@ -19,7 +19,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 1005.387 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:07 . Memory (MB): peak = 1006.473 ; gain = 0.000
 update_compile_order -fileset sources_1
 exit
-INFO: [Common 17-206] Exiting Vivado at Tue May  4 21:36:08 2021...
+INFO: [Common 17-206] Exiting Vivado at Tue May  4 20:07:14 2021...
