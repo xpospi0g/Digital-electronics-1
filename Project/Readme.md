@@ -63,7 +63,7 @@ The ultrasonic sensor works at 5V and the FPGA board works at 3.3V. A trigger si
 
 **Block diagram for Ultrasonic VHDL entity**
 
-![](Images/block diagram-senzor.PNG)
+![](Images/block_diagram.PNG)
 
 
 
