@@ -5,7 +5,7 @@
 --
 -- Copyright (c) 2021 - Present Shelemba Pavlo
 -- Brno University of Technology, Czech Republic
--- This work is licensed under the terms of the MIT license.
+-- This work is licensed under the terms of the MIT license
 --
 ----------------------------------------------------------------------------------
 
@@ -15,10 +15,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity top is
     Port ( 
         CLK100MHZ   : in  STD_LOGIC;                       -- Main clock
-        sw_i        : in  STD_LOGIC_VECTOR (2-1 downto 0); -- switches to operate system
+        sw_i        : in  STD_LOGIC_VECTOR (2-1 downto 0); -- Switches to operate system
         echo_i      : in  STD_LOGIC_VECTOR (2-1 downto 0); -- PMOD connectors
         --
-        cm_o        : out std_logic_vector(8-1 downto 0);  -- Distanse output (for testbench)
+        cm_o        : out std_logic_vector(8-1 downto 0);  -- Distanсe output (for testbench)
         --
         trig_o      : out STD_LOGIC_VECTOR (2-1 downto 0); -- Triger signals to sensors
         pwm_o       : out STD_LOGIC;
@@ -43,7 +43,7 @@ architecture behavioral of top is
 
     signal s_echo   : std_logic := '0';
     signal s_trig   : std_logic := '0';
-    signal s_cm     : std_logic_vector(8-1 downto 0) := (others => '0');
+    signal s_cm     : std_logic_vector(8-1 downto 0);
     signal s_rgb    : std_logic_vector(3-1 downto 0);
     
 begin
