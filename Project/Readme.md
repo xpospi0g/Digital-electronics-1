@@ -16,9 +16,7 @@
 
 ## Project objectives
 
-Project goal is to implement parking assistant with HC-SR04 ultrasonic sensor onto board Arty A7-100T.
-
-
+Project goal is to implement parking assistant with HC-SR04 ultrasonic sensor onto board Arty A7-100T. Use LED baragraph for light signaliasing and for sound signalising use pulse width modulation.
 
 
 
@@ -181,30 +179,38 @@ Top modul is used to implement all modules onto development board Arty A7-100T. 
 
 ![](Images/rts.png)
 
-### **Video**
+## **Video**
 
 [Link to video](https://drive.google.com/drive/u/0/folders/1ckc2RjHWFnYiYrOzwDaQC1Dgn1szUid2)
 
 
 
-#### Discussion
+## Discussion
 
 Possible improovement could be adding temperature senzor to change temperature dynamically, and calculate velocity of sound, rather than having constant value v=340m.s^1.
 
 We are also using only two senzors and they are not very accurate. In fact that in real parking assistents are used 4-8 senzors, possible improovement will be also increase the number of senzors.
 
-**References**
 
-https://www.academia.edu/29188168/Obstacle_avoidance_robot_using_FPGA_VHDL
 
-https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual
+## **References**
 
-https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/
+[Arty A7 Reference Manual]( https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual)
 
-https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE/edit#
+[How HC-SR04 ultrasonic sensor works]( https://lastminuteengineers.com/arduino-sr04-ultrasonic-sensor-tutorial/)
 
-https://www.youtube.com/watch?v=PJkiDAKVTFg&ab_channel=Mittuniversitetet
+[HC-SR04 users’ manual](https://docs.google.com/document/d/1Y-yZnNhMYy7rwhAgyL_pfa39RsB-x2qR4vP8saG73rE/edit#!)
 
-https://vhdlwhiz.com/pwm-controller/
+[Parking sensor](https://en.wikipedia.org/wiki/Parking_sensor)
 
-https://surf-vhdl.com/how-to-divide-an-integer-by-constant-in-vhdl/
+[Obstacle avoidance robot using FPGA VHDL]( https://www.academia.edu/29188168/Obstacle_avoidance_robot_using_FPGA_VHDL)
+
+[How to divide an integer by constant in VHDL](https://surf-vhdl.com/how-to-divide-an-integer-by-constant-in-vhdl/)
+
+[How to implement VHDL design for a range sensor on an FPGA](https://www.youtube.com/watch?v=PJkiDAKVTFg)
+
+[How to create a PWM controller in VHDL](https://vhdlwhiz.com/pwm-controller/)
+
+[Step by Step: having fun with PWM and a piezo buzzer]( https://jallib.blogspot.com/2009/02/step-by-step-having-fun-with-pwm-and_14.html)
+
+[Digital Electronics 1 Wiki](https://github.com/tomas-fryza/Digital-electronics-1/wiki)
