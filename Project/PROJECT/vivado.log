@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue May  4 18:17:44 2021
+# Process ID: 15232
+# Current directory: C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18516 C:\Users\E5570\Desktop\DE1\Digital-electronics-1\Project\PROJECT\PROJECT.xpr
+# Log file: C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT/vivado.log
+# Journal file: C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT/PROJECT.xpr
+INFO: [Project 1-313] Project file moved from 'C:/PROJECT' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/PROJECT/PROJECT.gen/sources_1', nor could it be found using path 'C:/PROJECT/PROJECT.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/Users/pavloshelemba/counter/counter.srcs/sources_1/new/cnt_up_down.vhd', nor could it be found using path 'C:/Users/pavloshelemba/counter/counter.srcs/sources_1/new/cnt_up_down.vhd'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Project/Users/pavloshelemba/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd', nor could it be found using path 'C:/Users/pavloshelemba/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd'.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:arty-a7-100:part0:1.0. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:06 . Memory (MB): peak = 1003.805 ; gain = 0.000
+update_compile_order -fileset sources_1
+import_files -norecurse C:/Users/E5570/Desktop/DE1/Digital-electronics-1/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  4 19:25:32 2021...
